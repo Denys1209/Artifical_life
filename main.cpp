@@ -209,7 +209,7 @@ int main()
 		print_map(map);
 		create_world(map);
 		std::cout << count_generations << std::endl;
-		Sleep(1);
+		Sleep(100);
 		system("cls");
 	}
 	return 0;
